@@ -26,3 +26,28 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+.colorpicker {
+  width: auto;
+  height: auto;
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: column;
+  background: #aaa;
+  padding: 100px;
+}
+.colorpicker__alpha {
+  position: relative;
+  width: 100%;
+  height: 200px;
+}
+.colorpicker__input {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+}
+.colorpicker__hue {
+  position: relative;
+  width: 100%;
+  height: 30px;
+}
